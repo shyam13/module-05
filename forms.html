@@ -10,7 +10,7 @@
     <link rel="icon" href="../../favicon.ico">
     <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/jumbotron/">
 
-    <title>About Us Page</title>
+    <title>FORMS</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,57 @@
     <div class="container">
         <div class="row">
             <div class="col-md-9">
-              <div class="jumbotron">
+              <div class="panel panel-info">
+                  <div class="panel-heading text-center">GIVE US YOUR VIEW</div>
+                  <div class="panel-body">
+                        <form>
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <input type="text" class="form-control" id="username" placeholder="username" required>
+                                 </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="city">City</label>
+                                    <select class="form-control">
+                                        <option>New York</option>
+                                        <option>Austin</option>
+                                        <option>Boston</option>
+                                        <option>CA</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment">Comment</label>
+                                    <textarea class="form-control" rows="3" required></textarea>
+                                </div>                    
+                                <div class="form-group">
+                                <label for="gender">Gender</label><br>
+                                <div class="radio-inline">
+                                        <label>
+                                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                          MALE 
+                                        </label>
+                                      </div>
+                                      <div class="radio-inline">
+                                        <label>
+                                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                          FEMALE
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="form-group">
+                                <div class="checkbox">
+                                        <label>
+                                        <input type="checkbox" required> Terms and Condition
+                                        </label>
+                                    </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-info btn-block">SEND</button>
+                            </form>
+                  </div>
+              
                 
                 </div>
             </div>
